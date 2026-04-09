@@ -3,19 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>中間駅さがし</title>
+    <title>中間駅さがし - サポート</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; color: #333; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; color: #333; line-height: 1.8; }
         h1 { color: #196138; }
+        h2 { font-size: 1.1em; margin-top: 28px; color: #196138; }
         a { color: #196138; }
+        .feature { padding: 8px 0; }
+        .feature b { display: block; }
         .links { margin-top: 30px; }
-        .links a { display: block; margin: 10px 0; padding: 12px; background: #f5f5f5; border-radius: 8px; text-decoration: none; }
+        .links a { display: block; margin: 10px 0; padding: 14px; background: #f5f5f5; border-radius: 10px; text-decoration: none; font-weight: 500; }
+        .badge { display: inline-block; background: #196138; color: white; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-left: 4px; }
     </style>
 </head>
 <body>
     <h1>中間駅さがし</h1>
-    <p>みんなが集まりやすい駅、すぐ見つかる。</p>
-    <p>複数人の出発駅から最適な待ち合わせ駅を見つけるアプリです。</p>
+    <p>みんなが集まりやすい駅、すぐ見つかる。<br>集合場所もお店もクーポンも割り勘も、これ一つで。</p>
+
+    <h2>主な機能</h2>
+
+    <div class="feature">
+        <b>中間駅検索</b>
+        複数人の最寄り駅から、路線データを活用して最適な集合駅を提案。所要時間モード・運賃モードに対応。
+    </div>
+
+    <div class="feature">
+        <b>飲食店検索 <span class="badge">200件+</span></b>
+        居酒屋・カフェ・ラーメン・バー・和食・イタリアン・中華・焼肉をジャンル別に検索。おすすめ順・予算順でソート。営業時間・予算・アクセス情報も表示。
+    </div>
+
+    <div class="feature">
+        <b>クーポン</b>
+        対象店舗のクーポンをアプリ内で保存・利用。行きたい駅を登録すると周辺のクーポンを自動表示。
+    </div>
+
+    <div class="feature">
+        <b>おでかけプラン</b>
+        昼からプラン・夜からプランを周辺のお店や施設から自動作成。LINEで友達に共有できます。
+    </div>
+
+    <div class="feature">
+        <b>割り勘</b>
+        誰が・誰の分を・いくら払ったかを入力するだけで最適な精算額を自動計算。結果をLINEで共有。
+    </div>
+
+    <div class="feature">
+        <b>その他</b>
+        乗換案内 / 駅情報（Wikipedia） / 神社・寺・公園・施設検索 / 行きたいリスト / 検索履歴 / 最寄りの繁華街
+    </div>
+
+    <h2>データ提供</h2>
+    <p style="font-size: 0.9em;">
+        飲食店・クーポン：Powered by ホットペッパー（リクルート）<br>
+        経路探索：駅すぱあとWebサービス（ヴァル研究所）<br>
+        駅情報：Wikipedia REST API<br>
+        施設・公園：国土数値情報（国土交通省）
+    </p>
 
     <div class="links">
         <a href="privacy.html">プライバシーポリシー</a>
